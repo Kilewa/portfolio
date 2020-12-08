@@ -1,0 +1,219 @@
+
+{% load bootstrap4 %}
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+    <link rel="shortcut icon" type="image/png" href="assets/icons/black-heart.png"/>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&display=swap" rel="stylesheet">
+    <title>George Kilewa</title>
+</head>
+<body>
+<header class="primary-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">George Kilewa</a>
+        </div>
+
+        <div class="nav__menu"  id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        
+    </nav>
+</header>
+
+
+<main class="l-main">
+
+    <!-- HOME -->
+    <section class="home bd-grid"  id="home">
+      <div class="home__data" data-aos="fade-up-right">
+        <h1 class="home__title">Hi, <br> I'm <span class="home__title-color">George</span><br> Software Engineer </h1>
+        <a href=mailto:kilewageorge230@gmail.com? target="_blank" subject="hi, there!" class="button">Contact</a>
+      </div>
+
+    <div class="home__social" data-aos="zoom-in-down">
+        <a href="https://www.linkedin.com/in/georgekilewa/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://twitter.com/GeorgeKilewa" target="_blank" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+        <a href="https://github.com/Kilewa" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+    </div>
+
+    <div class="home__img">
+        <img src="{% static 'images/george.jpeg'%}" alt="george">
+    </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <h2 class="section-title"data-aos="flip-down">About</h2>
+    
+
+    <div class="about__container bd-grid">
+        <div class="about__img" data-aos="zoom-in-right">
+          <img src="{% static 'images/george.jpeg'%}" alt="george">
+        </div>
+
+        <div data-aos="zoom-in-left">
+            <h2 class="about__subtitle">Hi, I'm George Kilewa!</h2>
+            <p class="about__text">
+                I'm a highly curious and passionate software engineer with four years of experience in digital marketing. As a quick learner with an enthusiasm for creating, I'm constantly looking for the next project to throw myself into.
+            
+                <br><br>
+            With interdisciplinary experience both in digital design and marketing, I'm able to bring a strong visual focus to the user experience, utilizing storytelling to develop interactive web applications that help organizations increase their digital presence. I strive to work in a highly technical environment that challenges my diverse skillset and pushes me to learn and grow further.
+                <br>
+                <br>
+                When I'm not working, I like to challenge myself athletically, surround myself in art and nature, and pretend I'm on a cooking show.
+                <br>
+                <br>
+                Currently, I'm seeking a full-time Front End Developer position. Please feel free to send me an <a href=mailto:zahra.khan@icloud.com? subject="hi, there!" class="about__email-link">email</a> if you'd like to connect, collaborate, or just chat. I'm always happy to meet new people!
+        
+        </p>
+    
+        </div>
+    </div>
+    </section>
+
+    <!-- SKILLS-->
+    <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="flip-down">Skills</h2>
+
+        <div class="skills__container bd-grid">
+            <div class="skills__box">
+                <h3 class="skills__subtitle" data-aos="zoom-in-right">Frontend</h3>
+                <span class="skills__name" data-aos="flip-down">HTML5</span>
+                <span class="skills__name" data-aos="flip-down">CSS3</span>
+                <span class="skills__name" data-aos="flip-down">SASS/SCSS</span>
+                <span class="skills__name" data-aos="flip-down">Javascript</span>
+                <span class="skills__name" data-aos="flip-down">React</span>
+                <span class="skills__name" data-aos="flip-down">Angular</span>
+                <span class="skills__name" data-aos="flip-down">Styled-Components</span>
+
+                <h3 class="skills__subtitle" data-aos="zoom-in-right">Backend</h3>
+                <span class="skills__name" data-aos="flip-down">SQL</span>
+                <span class="skills__name" data-aos="flip-down">PostgreSQL</span>
+                <span class="skills__name" data-aos="flip-down">MongoDB</span>
+                <span class="skills__name" data-aos="flip-down">NodeJS</span>
+                <span class="skills__name" data-aos="flip-down">Express</span>
+                <span class="skills__name" data-aos="flip-down">Python</span>
+                <span class="skills__name" data-aos="flip-down">Django</span>
+                <span class="skills__name" data-aos="flip-down">Flask</span>
+                <span class="skills__name" data-aos="flip-down">Heroku</span>
+                
+
+                <h3 class="skills__subtitle" data-aos="zoom-in-right">Misc.</h3>
+                <span class="skills__name" data-aos="flip-down">Github</span>
+                <span class="skills__name" data-aos="flip-down">Figma</span>
+                <span class="skills__name" data-aos="flip-down">Illustrator</span>
+                <span class="skills__name" data-aos="flip-down">Photoshop</span>
+            </div>
+
+            <div class="skills__img">
+                <img src="{% static 'images/creative.jpg'%} " alt="skills-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+
+    <section class="project section" id="project">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project__container bd-grid">
+            <!-- PROJECT 1 -->
+            <div class="project__content">
+                <a href="https://smartshelf-solns.herokuapp.com/" target="_blank"><img src="{% static 'images/project1.png' %}" alt="project-image" class="project__img"></a>
+                <div class="project__data">
+                    <a href="https://smartshelf-solns.herokuapp.com/" target="_blank">
+                        <h2 class="project__title">Smartshelf Solutions</h2>
+                    </a>
+                    <span class="project__subtitle">A web-based application that helps local/small shops or stores efficiently manage their inventory. Built in collaboration with friends.</span>
+                    <a href="https://github.com/D-Kamunya/Inventory-Management-System" target="_blank" class="button button-link">View on Github</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project__content">
+                <a href="https://kilewa-blog.herokuapp.com/" target="_blank"> <img src="{% static 'images/project2.png' %}" alt="project-image" class="project__img"></a>
+                <div class="project__data">
+                    <a href="https://kilewa-blog.herokuapp.com/" target="_blank">
+                        <h2 class="project__title">G-Blog</h2>
+                    </a>
+                    <span class="project__subtitle">A blog web application where people can share different information.</span>
+                    <a href="https://github.com/Kilewa/G-blog"  target="_blank"class="button button-link">View on GitHub</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project__content">
+                <a href="https://rateit1.herokuapp.com/" target="_blank"><img src="{% static 'images/project3.png' %}"  alt="project-image" class="project__img"></a>
+                <div class="project__data">
+                    <a href="https://rateit1.herokuapp.com/" target="_blank">
+                        <h2 class="project__title">Rate-It</h2>
+                    </a>
+                    <span class="project__subtitle">A web application that enables people upload their websites and have them rated by others(An attempt to clone Awwwards website).</span>
+                    <a href="https://github.com/Kilewa/Rate-It" target="_blank" class="button button-link">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT-->
+
+    <section class="contact section" id="contact"> 
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <form action="POST" data-netlify="true" class="contact__form">
+            <div class="field">
+                <input type="text" name="name" id="name" placeholder="Name" class="contact__input">
+            </div>
+            <div class="field">
+                <input type="mail" name="email" id="email"  placeholder="Email" class="contact__input">
+            </div>
+            <div class="field">
+                <textarea name="message" id="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+            </div>
+                <input type="submit" value="Say Hello!" class="contact__button button">
+            </form>
+        </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <p class="footer__title">George Kilewa</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/georgekilewa/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://twitter.com/GeorgeKilewa" target="_blank" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://github.com/kilewa" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+
+        </div>
+        <p>Copyright @ <script>document.write(new Date().getFullYear());</script>. All Rights Reserved.</p>
+    </footer>
+    </section>
+</main>
+
+<script src="{static 'js/main.js'}"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 100,
+    duration: 1500
+  });
+</script>
+</body>
+</html>
